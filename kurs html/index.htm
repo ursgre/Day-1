@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>HTML and CSS</title>
+    <style>
+        h1 {
+            color: rgb(250, 234, 14);
+            font-family: verdana;
+            font-size: 300%;
+            }
+        p    {color: rgb(9, 8, 92);}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        a:link {
+          color: rgb(6, 104, 184);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:visited {
+          color: rgb(214, 10, 10);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: rgb(211, 14, 152);
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        </style>
+
+<style>
+    a:link, a:visited {
+      background-color: #c123e0;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+    </style>
+  }
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+    #t01 {
+  width: 100%;    
+  background-color: #dee944;
+    }
+    th, td {
+  padding: 10px;
+}
+    </style>
+
+    </head>
+    <body style="background-color:powderblue;" > <!---Heading,paragraphs and chapters-->
+        <h1>First Day</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+
+        <p>My first paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+        <p><a href="#C10">Jump to Chapter 10</a></p>
+        <a href="html_demo.html#C6">Jump to Chapter 6</a>
+
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 5</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C6">Chapter 6</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 7</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 8</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 9</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C10">Chapter 10</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <hr> <!-- Images -->
+        <h4>Images html</h4>
+        <p>HTML images are defined with the img tag:</p>
+        <img src="boy.jpg" alt="Boy" width="104" height="142">
+
+        <h5>Images 2 html</h5>
+        <p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
+        <img src="girl.jpg" alt="Girl" width="500eight="600">
+
+       <p><img src="scream.jpg" width="220" height="277" alt="The Scream"></p>
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+        <img src="sea.jpg" alt="Sea" width="500" height="333">
+        <p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;"></p>
+
+        <img src="strong.gif" alt="Computer man" style="width:480px;height:400px;"> <!---Gif-->
+
+        <p>
+            <img src="sun.gif" alt="Sun" style="float:right;width:42px;height:42px;">
+            A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+            </p>
+            
+            <img src="moon.gif" alt="moon" style="float:left;width:42px;height:42px;">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+        </p>
+
+        <div style="background-image: url('snow.jpg');">
+            You can specify background images<br>
+            for any visible HTML element.<br>
+            In this example, the background image<br>
+            is specified for a div element.<br>
+            By default, the background-image<br>
+            will repeat itself in the direction(s)<br>
+            where it is smaller than the element<br>
+            where it is specified. (Try resizing the<br>
+            browser window to see how the<br>
+            background image behaves.
+            </div>
+
+        <hr> <!---Image maps -->
+
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+
+
+
+        <hr> <!-- Links -->
+        <h6>Link HTML</h6>
+        <p>HTML links are defined with the a tag:</p>
+        <a href="https://www.w3schools.com">This is a link</a>
+
+        <h7>Second link</h7>
+        <p>HTML links are defined with the a tag. The link address is specified in the href attribute:</p>
+        <a href="https://www.w3schools.com">Visit W3Schools</a>
+
+        <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> <!--New window or tab-->
+
+        <p>Click the button to go to the HTML tutorial.</p>
+        <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+        <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> <!---Titles as links-->
+        <p><a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a></p>
+
+        <a href="default.asp"><img src="butterfly.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a> <!---Images as links-->
+
+
+        <hr> <!-- Style -->
+        <h8>The style Attribute</h8>
+        <p>The style attribute is used to add styles to an element, such as color:</p>
+        <p style="color:rgba(255, 0, 0, 0.959);">This is a red paragraph.</p>
+
+        <p><b>This is a paragraph in bold.</b></p>
+
+        <h9 style="font-size:60px;">This is heading 9</h9>
+        <p>You can change the size of a heading with the style attribute, using the font-size property.</p>
+        <p>I am normal</p>
+        <p style="color:rgb(0, 255, 42);">I am green</p>
+        <p style="color:blue;">I am blue</p>
+        <p style="font-size:50px;">I am big</p>
+        <p style="font-size:10px;">I am small</p>
+        <h1 style="font-family:verdana;">This is a heading</h1>
+        <p style="font-family:courier;">This is a paragraph.</p>
+        <h1 style="font-size:400%;">This is a heading</h1>
+        <p style="font-size:150%;">This is a paragraph.</p>
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>
+        <p><b>This text is bold</b></p>
+        <p><strong>This text is bold 2</strong></p>
+        <p><i>This text is italic</i></p>
+        <p><em>This text is emphasized.</em></p>
+        <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+        <p><small>This text is smaller</small></p>
+        <p>Do not forget to buy <mark>milk</mark> today.</p>
+        <p>My favorite color is <del>yellow</del> orange.</p>
+        <p>This is normal text</p>
+        <p>This is old text and <q>this in new text</q></p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <address>
+            Written by Anna J.<br> 
+            Visit us at:<br>
+            Example.com<br>
+            New York<br>
+            USA
+        </address>
+        <p>This is a <br> paragraph with a line break.</p>
+        <bdo dir="rtl">This line will be written from right to left</bdo>
+        <p style="background-color:rgb(255, 71, 132);"> This is new line of text </p>
+        <p style="color:rgba(145, 10, 133, 0.856);">This is next line of text 2.</p>  
+        <p style="border: 2px solid DodgerBlue;">This is new line of text 3<p>
+        <p style="background-color:#ff6347;">#ff6347<p>  
+        <p style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</p>
+        <p style="background-color:#ffa500;">#ffa500</p>
+        <p style="background-color:#a0a0a0;">#a0a0a0</p>
+        <p style="background-color:#686868;">#686868</p>
+
+        <hr><!-- Styles Css -->
+        <h1 style="color:orange;">A Orange Heading</h1>
+        <p style="color:rgb(0, 255, 242);">A blue paragraph.</p>
+
+
+
+        <hr> <!-- Arrangement -->
+        <p>
+            This paragraph
+            contains a lot of lines
+            in the source code,
+            but the browser 
+            ignores it.
+        </p>
+
+        <p>
+            This paragraph
+            contains      a lot of spaces
+            in the source     code,
+            but the    browser 
+            ignores it.
+        </p>
+
+        <p>
+            The number of lines in a paragraph depends on the size of the browser window. If you resize the browser window, the number of lines in this paragraph will change.
+        </p>
+
+        <p>In HTML, spaces and new lines are ignored:</p>
+
+        <p>
+
+            My Bonnie lies over the ocean.
+
+            My Bonnie lies over the sea.
+
+            My Bonnie lies over the ocean.
+  
+            Oh, bring back my Bonnie to me.
+
+        </p>
+
+        <p>The pre tag preserves both spaces and line breaks:</p>
+
+        <pre>
+            My Bonnie lies over the ocean.
+
+            My Bonnie lies over the sea.
+
+            My Bonnie lies over the ocean.
+   
+            Oh, bring back my Bonnie to me.
+</pre>
+
+        <p>This is<br>a paragraph<br>with line breaks.</p>
+
+
+        <hr> <!---Tables-->
+        <h2>Basic HTML Table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Smith</td>
+    <td>32</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Sun</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>North</td>
+    <td>89</td>
+  </tr>
+    </table>
+
+    <table style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+          <td>Jacob Wood</td>
+          <td>52089654</td>
+          <td>24555678</td>
+        </tr>
+      </table>
+
+      <hr> <!---Lists-->
+      <h2>An unordered  list</h2>
+
+        <ul>
+            <li>Butterfly</li>
+            <li>Bee</li>
+            <li>Fly</li>
+            <li>Dragonfly</li>
+            <li>Wasp</li>
+        </ul>  
+
+        <h2>Unordered List with Square Bullets</h2>
+
+        <ul style="list-style-type:square;">
+        <li>Raven</li>
+        <li>Owl</li>
+        <li>Budgie</li>
+        <li>Pigeon</li>
+        </ul>
+
+        <h2>Unordered List without Bullets</h2>
+
+        <ul style="list-style-type:none;">
+            <li>Sea</li>
+            <li>Lake</li>
+            <li>Waterfall</li>
+        </ul>  
+
+
+        <h2>An orderedlist</h2>
+
+        <ol>
+        <li>Horse</li>
+        <li>Cow</li>
+        <li>Pig</li>
+        </ol>  
+
+        <h2>A Description List</h2>
+
+        <dl>
+            <dt>Jack</dt>
+            <dd>- little,black cat</dd>
+            <dt>Steve</dt>
+            <dd>- big,white dog</dd>
+        </dl>
+
+        <h2>A Nested List</h2>
+
+<ul>
+  <li>Water</li>
+  <ul>
+    <li>Mineral Water</li>
+    <li>Sparkling Water</li>
+  </ul>
+  <li>Juice
+    <ul>
+      <li>Orange Juice</li>
+      <li>Apple Juice</li>
+    </ul>
+  </li>
+  <li>Tea</li>
+  <ul>
+    <li>Black Tea</li>
+    <li>Green Tea</li>
+  </ul>
+</ul>
+<h2>Ordered List with Roman Numbers</h2>
+
+<ol type="I">
+  <li>Violet</li>
+  <li>Rose</li>
+  <li>Daisy</li>
+  <li>Cyclamens</li>
+</ol>
+
+<h2>Ordered List with Letters</h2>
+
+<ol type="A">
+  <li>Dragon</li>
+  <li>Elf</li>
+  <li>Leprechum</li>
+</ol>  
+
+<h2>The start attribute</h2>
+
+<ol start="5">
+    <li>Table</li>
+    <li>Desk</li>
+    <li>Chair</li>
+    <li>Lamp</li>
+  </ol>
+  
+  <ol type="I" start="10">
+    <li>Heaven</li>
+    <li>Hell</li>
+    <li>Purgatory</li>
+  </ol>
+
+    
+
+    </body>
+</html>
